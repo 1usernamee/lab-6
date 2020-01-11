@@ -20,7 +20,6 @@ public class AppWindow extends Frame {
         appWindow.setVisible(true); //установить видимость
 
         Button button = new Button("Нажми");
-        button.setBounds(50,100, w, h);
 
         button.addMouseMotionListener(new MouseMotionListener() {
 
